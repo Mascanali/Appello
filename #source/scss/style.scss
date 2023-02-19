@@ -1,3 +1,23 @@
 // /*--------ИМПОРТ---------------------*/
 @import "null.scss";
 // /*-----------------------------------*/
+
+$title_size: 42px;
+$undertitle_size: 11px;
+
+$subtitle_size: 24px;
+$text_size: 16px;
+
+$else_size: 19px;
+
+// /*-----------------------------------*/
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 15px;
+}
