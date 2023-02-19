@@ -114,7 +114,7 @@ h1 {
 
 /*---HEADER---*/
 .header {
-  background: url("/img/Frame.png") 0 0/cover no-repeat;
+  background: url("img/Frame.png") 0 0/cover no-repeat;
 }
 .header .header__inner {
   display: -webkit-box;
