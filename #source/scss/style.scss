@@ -239,7 +239,7 @@ color: #fff;
 	.section5__inner {
 		background: #fff;
 		max-width: 560px;
-		box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.2);
+		box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.1);
 		.section5__inner-img {
 			padding: 15px;
 		}
@@ -310,7 +310,7 @@ color: #fff;
 		margin-bottom: 90px;
 		.section7__inner-block {
 			width: 365px;
-			box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.2);
+			box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.1);
 			padding: 20px;
 			.section7__block-text {
 				color: #737373;
@@ -338,7 +338,7 @@ color: #fff;
 		padding: 30px 50px;
 		margin: 0 auto;
 		background-color: #fff;
-		box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.2);
+		box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.1);
 		position: relative;
 		top: 400px;
 		.section8__form-inner {
@@ -370,5 +370,193 @@ color: #fff;
 				}
 			}
 		}
+	}
+}
+
+.section9 {
+	background-color: #FAFAFA;
+	height: 660px;
+	.section9__inner {
+		margin-left: 90px;
+		.section9__title {
+			font-size: $title_size;
+			margin-top: 150px;
+		}
+		.section9__text {
+			font-size: $text_size;
+			color: #737373;
+			margin-top: 45px;
+			line-height: 30px;
+			max-width: 470px;
+		}
+		.section9__pic {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 20px;
+			align-items: center;
+			margin-top: 50px;
+			margin-bottom: 150px;
+		}
+	}
+}
+
+.section10 {
+	.section10__title {
+		display: flex;
+		justify-content: center;
+		font-size: $title_size;
+		margin-bottom: 40px;
+		margin-top: 150px;
+	}
+	.section10__text {
+		display: flex;
+		justify-content: center;
+		font-size: $undertitle_size;
+		margin-bottom: 90px;
+	}
+	.section10__inner {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 50px;
+		margin-bottom: 150px;
+		.section10__block {
+			box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.1);
+			padding: 10px;
+			max-width: 340px;
+			.section10__block-inner {
+				padding: 0px 20px 20px 20px;
+				.section10__block-title {
+					font-size: $subtitle_size;
+					margin-top: 50px;
+					margin-bottom: 30px;
+					line-height: 40px;
+				}
+				.section10__block-text {
+					font-size: $text_size;
+					color: #737373;
+					line-height: 30px;
+				}
+			}
+		}
+		.section10__block img {
+			max-width:100%;
+			height:auto;
+		}
+	}
+}
+
+.section11 {
+	.section11__title {
+		display: flex;
+		justify-content: center;
+		font-size: $title_size;
+		margin-bottom: 40px;
+		margin-top: 150px;
+	}
+	.section11__text {
+		display: flex;
+		justify-content: center;
+		font-size: $undertitle_size;
+		margin-bottom: 90px;
+	}
+	.section10__inner {
+		margin-bottom: 150px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 10px;
+		.section10__block {
+			font-size: $else_size;
+			margin: 40px 0px 20px 0px;
+		}
+		.section10__block:after {
+			content: '';
+			display: block;
+			height: 1px;
+			background: #E8E8E8;
+			width: 100%;
+			margin-top: 40px;
+		}
+		.section10__block a {
+		}
+		cursor: pointer;
+		.section10__block a:hover {
+			transition: 0.1s;
+			color: #0A8BFE;
+		}
+	}
+}
+
+.section12 {
+	background-color: #0E0E33;
+	.sec12 {
+		.section12__title {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+			margin-top: 140px;
+			.section12__title-left {
+				font-size: $text_size;
+				color: #fff;
+			}
+		}
+		.section12__title:after {
+			content: '';
+			display: block;
+			height: 2px;
+			width: 100%;
+			background: #787878;
+			margin-top: 60px;
+		}
+		.section12__inner {
+			display: flex;
+			flex-wrap: wrap;
+			margin-top: 150px;
+			justify-content: space-between;
+			.section12__inner-block {
+				width: 320px;
+				.section12__block-title {
+					font-size: $else_size;
+					color: #fff;
+				}
+				.section12__block-title {
+					margin-bottom: 40px;
+				}
+				.section12__block-text {
+					.section12__block-item {
+						font-size: $text_size;
+						color: #fff;
+					}
+					.section12__block-item:after {
+						content: '';
+						display: block;
+						height: 1px;
+						max-width: 100%;
+						background: #787878;
+						margin-top: 15px;
+						margin-bottom: 15px;
+					}
+					.section12__block-item a {
+						color: #fff;
+						cursor: pointer;
+					}
+					.section12__block-item a:hover {
+						transition: 0.1s;
+						color: #0A8BFE;
+					}
+				}
+			}
+		}
+	}
+	.sec12:after {
+		content: '';
+		display: block;
+		height: 2px;
+		width: 100%;
+		background: #787878;
+		margin-top: 60px;
+		margin-bottom: 60px;
 	}
 }
